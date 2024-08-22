@@ -2,9 +2,9 @@ import os
 import pandas as pd
 
 # Path to the directory containing source Excels and target JSONs.
-excel_directory = r"C:\\Users\\cansu\\Documents\\csv_to_json\\csv_files"
-excel_file = "C:\\Users\\cansu\\Documents\\csv_to_json\\csv_files\\excel_example_1.xlsx"
-json_directory = r"C:\\Users\\cansu\\Documents\\csv_to_json\\json_files"
+excel_directory = r"C:\\Users\\User\\Documents\\csv_to_json\\csv_files"
+excel_file = "C:\\Users\\User\\Documents\\csv_to_json\\csv_files\\excel_example_1.xlsx"
+json_directory = r"C:\\Users\\User\\Documents\\csv_to_json\\json_files"
 
 
 df = pd.read_excel(excel_file)
